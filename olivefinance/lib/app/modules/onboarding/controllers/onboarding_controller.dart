@@ -4,9 +4,12 @@ import 'package:olivefinance/app/data/OnboardingItems.dart';
 
 class OnboardingController extends GetxController {
   final List<OnboardingItem> listItems = [
+    OnboardingItem(
+      "Manage and Secure your cards",
+      "assets/svg/Save-cards-wallet.svg",
+      "You can save your existing cards securely in the app, for making transfers and managing your cards",
+    ),
     OnboardingItem("Card Issuing", "assets/svg/Issue-card.svg", "description"),
-    OnboardingItem("Card Security", "assets/svg/Save-cards-wallet.svg",
-        "Manage all your card"),
     OnboardingItem("Wallet Save", "assets/svg/Save-wallet.svg", "description"),
   ].obs;
 
